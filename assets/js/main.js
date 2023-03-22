@@ -26,10 +26,12 @@ if (eta < 18){
 else if (eta > 65){
     prezzo_finale = prezzo_finale -  (prezzo_finale * 0.40).toFixed(1);
 }
-
 console.log (prezzo_finale);
 
-let biglietto = prezzo_finale;
 
+
+// importazione su layout
+
+let biglietto = prezzo_finale;
 
 document.writeln `${biglietto}`;
